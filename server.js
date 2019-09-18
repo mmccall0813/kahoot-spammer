@@ -14,7 +14,7 @@ function changeStat(a){
   y = a;
 }
 setInterval(function(){console.log(x + "    " + y)}, 10000)
-var n = `0`; // this one is bot name
+var n = (Math.round(Math.random() * 3000)).toString(); // this one is bot name
 var nc; // ignore this
 var ns = 300; // bot amount
 var Kahoot = require("kahoot.js-updated");
